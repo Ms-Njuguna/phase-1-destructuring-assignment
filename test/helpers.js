@@ -16,6 +16,4 @@ const babelResult = babel.transformFileSync(
 
 const src = babelResult.code
 
-jsdom({
-  html, src, url
-});
+jsdom({ html, src, url });
